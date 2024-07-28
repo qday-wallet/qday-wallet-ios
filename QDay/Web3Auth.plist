@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ClientId</key>
+	<string>BEg15d5sQycAAyZd1bprSGaSR_Lz7kipe6oqblSaiIWctg39h5HPZWErN9GH4rKT8iutrzayHIfHAK1cinacZKE</string>
+	<key>Network</key>
+	<string>sapphire_devnet</string>
+	<key>RedirectUrl</key>
+	<string>top.621design.QDay://auth</string>
+</dict>
+</plist>
