@@ -230,6 +230,9 @@ class TXActionViewController: UIViewController {
     
     @objc
     func scan_btnClick() {
+        if !UIImagePickerController.isSourceTypeAvailable(.camera) {
+            return;
+        }
         let vc = ScanViewController()
         vc.modalPresentationStyle = .fullScreen
         vc.delegate = self;

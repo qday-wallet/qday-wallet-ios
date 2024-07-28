@@ -20,7 +20,6 @@
 		2E0079AA2C548D9700297CBE /* TXRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0079862C548D9700297CBE /* TXRecordCell.swift */; };
 		2E0079AB2C548D9700297CBE /* TXRecordTitleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0079872C548D9700297CBE /* TXRecordTitleHeader.swift */; };
 		2E0079AC2C548D9700297CBE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0079882C548D9700297CBE /* UIColor+Extension.swift */; };
-		2E0079AD2C548D9700297CBE /* Web3Auth.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E0079892C548D9700297CBE /* Web3Auth.plist */; };
 		2E0079AE2C548D9700297CBE /* Web3AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E00798A2C548D9700297CBE /* Web3AuthManager.swift */; };
 		2E0079AF2C548D9700297CBE /* Web3AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E00798B2C548D9700297CBE /* Web3AuthViewController.swift */; };
 		86096001D92D7CC98727991C /* Pods_QDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18BD583177FD30DF6B6BD0A /* Pods_QDay.framework */; };
@@ -41,7 +40,6 @@
 		2E0079862C548D9700297CBE /* TXRecordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TXRecordCell.swift; sourceTree = "<group>"; };
 		2E0079872C548D9700297CBE /* TXRecordTitleHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TXRecordTitleHeader.swift; sourceTree = "<group>"; };
 		2E0079882C548D9700297CBE /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		2E0079892C548D9700297CBE /* Web3Auth.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Web3Auth.plist; sourceTree = "<group>"; };
 		2E00798A2C548D9700297CBE /* Web3AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Web3AuthManager.swift; sourceTree = "<group>"; };
 		2E00798B2C548D9700297CBE /* Web3AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Web3AuthViewController.swift; sourceTree = "<group>"; };
 		2FF83BE99048238487B6EBB9 /* Pods-NBWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBWallet.release.xcconfig"; path = "Target Support Files/Pods-NBWallet/Pods-NBWallet.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				2E0079862C548D9700297CBE /* TXRecordCell.swift */,
 				2E0079872C548D9700297CBE /* TXRecordTitleHeader.swift */,
 				2E0079882C548D9700297CBE /* UIColor+Extension.swift */,
-				2E0079892C548D9700297CBE /* Web3Auth.plist */,
 				2E00798A2C548D9700297CBE /* Web3AuthManager.swift */,
 				2E00798B2C548D9700297CBE /* Web3AuthViewController.swift */,
 			);
@@ -188,7 +185,6 @@
 				2E0079A42C548D9700297CBE /* LaunchScreen.storyboard in Resources */,
 				2E0079A52C548D9700297CBE /* Main.storyboard in Resources */,
 				2E0079A02C548D9700297CBE /* Assets.xcassets in Resources */,
-				2E0079AD2C548D9700297CBE /* Web3Auth.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +405,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QDay/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = QDay;
+				INFOPLIST_KEY_CFBundleDisplayName = Qday;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -441,7 +437,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QDay/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = QDay;
+				INFOPLIST_KEY_CFBundleDisplayName = Qday;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
