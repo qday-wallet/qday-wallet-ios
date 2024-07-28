@@ -43,7 +43,7 @@ class HomeViewController: UIViewController {
     }()
     lazy var balance_label: UILabel = {
         let v = UILabel()
-        v.text = "0.00";
+        v.text = "0 PQUSD";
         v.font = UIFont.systemFont(ofSize: 25, weight: .bold)
         v.numberOfLines = 0;
         return v
@@ -179,9 +179,9 @@ class HomeViewController: UIViewController {
                 let json = JSON(value)
                 if let balanceStr = json["balance"].string, let balance = Float(balanceStr)  {
                     if balance == 0 {
-                        self.balance_label.text = "0.00";
+                        self.balance_label.text = "0" + " PQUSD";
                     } else {
-                        self.balance_label.text = String(format: "%2.f", balance/ACCURACY);
+                        self.balance_label.text = String(format: "%2.f", balance/ACCURACY) + " PQUSD";
                     }
                 }
             case .failure(let error):
