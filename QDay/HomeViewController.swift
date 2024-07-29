@@ -353,7 +353,17 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
             if value == 0 {
                 cell.amount_label.text = "0.00";
             } else {
-                cell.amount_label.text = String(format: "%2.f", value/ACCURACY);
+                let valueStr = String(format: "%2.f", value/ACCURACY);
+                var sysmbol = "+";
+                if let to = tx["to"].string, let address = self.address?.asString() {
+                    if to == address {
+                        sysmbol = "+";
+                    } else {
+                        sysmbol = "-";
+                    }
+                }
+                
+                cell.amount_label.text = sysmbol + String(format: "%2.f", value/ACCURACY);
             }
         }
         
