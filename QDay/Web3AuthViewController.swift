@@ -2,7 +2,7 @@
 //  Web3AuthViewController.swift
 //  NBWallet
 //
-//  Created by Qiyeyun2 on 2024/7/17.
+//  qday on 2024/7/17.
 //
 
 import UIKit

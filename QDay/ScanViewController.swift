@@ -2,7 +2,7 @@
 //  ScanViewController.swift
 //  NBWallet
 //
-//  Created by 621design on 2024/7/27.
+//  qday on 2024/7/27.
 //
 
 import UIKit

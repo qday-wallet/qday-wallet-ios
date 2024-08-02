@@ -2,7 +2,7 @@
 //  QRCodeViewController.swift
 //  NBWallet
 //
-//  Created by 621design on 2024/7/26.
+//  qday on 2024/7/26.
 //
 
 import UIKit

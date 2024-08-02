@@ -2,7 +2,7 @@
 //  Config.swift
 //  NBWallet
 //
-//  Created by Qiyeyun2 on 2024/7/17.
+//  qday on 2024/7/17.
 //
 
 import UIKit
@@ -11,9 +11,9 @@ import UIKit
  web3Auth
  */
 //dev
-let ClientId = "BEg15d5sQycAAyZd1bprSGaSR_Lz7kipe6oqblSaiIWctg39h5HPZWErN9GH4rKT8iutrzayHIfHAK1cinacZKE";
+let ClientId = "xxx";
 let NetworkType = "sapphire_devnet";
-let RedirectUrl = "top.621design.QDay://auth";
+let RedirectUrl = "top.xy.QDay://auth";
 
 //pro
 //let ClientId = "";

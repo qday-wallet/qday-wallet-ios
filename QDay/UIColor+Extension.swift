@@ -2,7 +2,7 @@
 //  UIColor+Extension.swift
 //  NBWallet
 //
-//  Created by 621design on 2024/7/18.
+//  qday on 2024/7/18.
 //
 
 import UIKit

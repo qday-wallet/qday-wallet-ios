@@ -2,7 +2,7 @@
 //  NavigationController.swift
 //  NBWallet
 //
-//  Created by Qiyeyun2 on 2024/7/15.
+//  qday on 2024/7/15.
 //
 
 import UIKit
